@@ -1,9 +1,9 @@
-function outputLetters(str){
-    for (let i = 0; i < str.length; i++) {
-        const element = array[i];
-        
+var fibonacci = [0, 1];
+
+for (i = 0; i < 100; i++) {
+    if (i % fibonacci == 0) {
+        console.log(i);
     }
 }
-
-var voorbeeldString = "Dit is een array van letters";
-console.log(voorbeeldString.length); // geeft terug: 
+console.log(fibonacci);
+   
